@@ -1,1 +1,1 @@
-# metal-archives.js
+# metal-archives-js
