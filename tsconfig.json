@@ -4,7 +4,7 @@
         "module": "commonjs",
         "declaration": true,
         "outDir": "dist",
-        "rootDir": "lib",
+        "rootDir": ".",
         "removeComments": false,
         "importHelpers": true,
         "noEmitHelpers": true,
@@ -24,6 +24,7 @@
     "exclude": [
         ".vscode",
         "node_modules",
-        "dist"
+        "dist",
+        "test"
     ]
 }
