@@ -1,0 +1,33 @@
+{
+  "name": "metal-archives-js",
+  "version": "0.0.0",
+  "description": "The unofficial Metal Archives client for Node.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "lint": "tslint --project tsconfig.json",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrlquaker/metal-archives-js.git"
+  },
+  "keywords": [
+    "metal",
+    "archives",
+    "rest",
+    "api",
+    "client"
+  ],
+  "author": "nrlquaker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nrlquaker/metal-archives-js/issues"
+  },
+  "homepage": "https://github.com/nrlquaker/metal-archives-js#readme",
+  "devDependencies": {
+    "typescript": "^2.7.2"
+  }
+}
